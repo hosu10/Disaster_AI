@@ -1,0 +1,47 @@
+# Update - 2025년 4월 10일 : 정파시간 오작동 개선 / yaml 파일정리
+# # default.yml : 연구개발 테스트 운영 서버 기준으로 설정함.
+# # Override.ml : 재난센터 서버 또는 코드 개발 서버 기준으로 필요시 수정함.
+
+# 1. 카카오 채널 알림을 할지 설정함.
+# kakao_on: False     # (Default)
+kakao_on: True
+
+# 2. 입력 비디오 경로 
+video_path: 1
+#video_path: "rtmp://10.30.17.108:1935/live/kbs" # 정상 화면 크기 : 960 X 540    # (Default)
+
+# 3. 모니터링 화면에서 오디오를 재생할 것인가? ** 재생시 다소 불안정함
+ffmpeg_enable: 0  #오디오 재생을 위해 ffmpeg설치했을때 1
+#ffmpeg_enable: 1    # (Default)
+
+# 4. CAP 수신 파일 경로 
+path_cap: "C:/CGMS/file/cap/"    # (Default)
+#path_cap: "./cap"
+#path_cap: "K:"
+
+# 5. 방송 화면캡쳐을 재난방송온라인 S/W에 전달할 경로 
+#path_capture: "C:/CGMS/captures"     # (Default)
+path_capture: "C:/CGMS/captures"
+ 
+# 6. 방송 화면캡쳐 파일 자체 확인용으로 저장할 경로 
+#    경로를 명시하지 않으면 파일이 저장되지 않음.
+path_capture2: "./captures"          # (Default)
+
+# 7. 의무송출 재난 메시지만 처리할 것인가?
+CAP_process_mandatory_only : True 
+#CAP_process_mandatory_only : False    # (Default)
+
+# 8. 긴급 재난코드가 추가되면 반드시 추가할 것. 
+#emergency_event_code :  {'FEW', 'EQW', 'EQI', 'EEW', 'CPW', 'CNW', 'CDC', 'CCW', 'CAW'}     # (Default)
+emergency_event_code :  {'FEW', 'EQW', 'EQI', 'EEW', 'CPW', 'CNW', 'CDC', 'CCW', 'CAW'}     
+
+# 9 송출대상 재난코드 정의 파일
+#real_warnning_json_path: "./resources/kbs_mandatory.json"
+#real_warnning_json_path: "http://science.kbs.co.kr/EDBS/edbs_code.json"     # (Default)
+
+# 10 재난방송 티커 위치 position_tick:
+#  - [781, 492]  # 좌상단    # (Default)
+#  - [960, 519]  # 우하단    # (Default)
+
+# 자막인식을 위한 Tesseract 프로그램 설치 경로
+#pytesseract_path: "C:/Program Files/Tesseract-OCR/tesseract.exe"  

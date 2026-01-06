@@ -1,0 +1,28 @@
+# 1. 카카오 채널 알림을 할지 설정함.
+kakao_on: True
+
+# 2. 입력 비디오 경로 
+video_path: 0
+ffmpeg_enable: 0  #오디오 재생을 위해 ffmpeg설치했을때 1
+
+
+# 3. CAP 수신 파일 경로 
+path_cap: "C:/CGMS/file/cap/"
+
+# CAP_process_mandatory_only ( 디버거 모드에서 = Flase,  )
+CAP_process_mandatory_only : True
+
+# 4. 파일 경로 : 방송 화면 캡쳐 파일 저장할 경로
+path_capture: "C:/CGMS/captures"
+path_capture2: "./captures"
+ 
+
+# 긴급 재난코드
+emergency_event_code :  {'FEW', 'EQW', 'EQI', 'EEW', 'CPW', 'CNW', 'CDC', 'CCW', 'CAW'}
+
+# 티커 참조 이미지 경로
+ticker_reference: "./resources/ticker_ref.jpg"
+
+# 자막인식을 위한 Tesseract 프로그램 설치 경로
+pytesseract_path: "C:/Program Files/Tesseract-OCR/tesseract.exe"  
+

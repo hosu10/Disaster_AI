@@ -1,0 +1,1666 @@
+{
+	"HWW": {
+		"name": "강풍경보",
+		"is_mandatory": true,
+		"disaster_code": "T10101",
+		"disaster_name": "강풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HWS": {
+		"name": "강풍 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T10101",
+		"disaster_name": "강풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HWN": {
+		"name": "강풍경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10101",
+		"disaster_name": "강풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HWL": {
+		"name": "강풍주의보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10101",
+		"disaster_name": "강풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HWG": {
+		"name": "강풍주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10101",
+		"disaster_name": "강풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HWE": {
+		"name": "강풍 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10101",
+		"disaster_name": "강풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HWC": {
+		"name": "강풍경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10101",
+		"disaster_name": "강풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HWA": {
+		"name": "강풍주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10101",
+		"disaster_name": "강풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"THW": {
+		"name": "낙뢰경보",
+		"is_mandatory": true,
+		"disaster_code": "T10102",
+		"disaster_name": "낙뢰",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"THS": {
+		"name": "낙뢰 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10102",
+		"disaster_name": "낙뢰",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HSW": {
+		"name": "대설경보",
+		"is_mandatory": true,
+		"disaster_code": "T10103",
+		"disaster_name": "대설",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HSS": {
+		"name": "대설 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10103",
+		"disaster_name": "대설",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HSN": {
+		"name": "대설경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10103",
+		"disaster_name": "대설",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HSL": {
+		"name": "대설주의보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10103",
+		"disaster_name": "대설",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HSG": {
+		"name": "대설주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10103",
+		"disaster_name": "대설",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HSE": {
+		"name": "대설 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10103",
+		"disaster_name": "대설",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HSC": {
+		"name": "대설경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10103",
+		"disaster_name": "대설",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HSA": {
+		"name": "대설주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10103",
+		"disaster_name": "대설",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TPW": {
+		"name": "태풍경보",
+		"is_mandatory": true,
+		"disaster_code": "T10105",
+		"disaster_name": "태풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TPS": {
+		"name": "태풍 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10105",
+		"disaster_name": "태풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TPN": {
+		"name": "태풍경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10105",
+		"disaster_name": "태풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TPL": {
+		"name": "태풍주의보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10105",
+		"disaster_name": "태풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TPG": {
+		"name": "태풍주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10105",
+		"disaster_name": "태풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TPE": {
+		"name": "태풍 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10105",
+		"disaster_name": "태풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TPC": {
+		"name": "태풍경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10105",
+		"disaster_name": "태풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TPA": {
+		"name": "태풍주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10105",
+		"disaster_name": "태풍",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HRW": {
+		"name": "호우경보",
+		"is_mandatory": true,
+		"disaster_code": "T10107",
+		"disaster_name": "호우",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HRS": {
+		"name": "호우 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10107",
+		"disaster_name": "호우",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HRN": {
+		"name": "호우경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10107",
+		"disaster_name": "호우",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HRL": {
+		"name": "호우주의보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10107",
+		"disaster_name": "호우",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HRG": {
+		"name": "호우주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10107",
+		"disaster_name": "호우",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HRE": {
+		"name": "호우 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10107",
+		"disaster_name": "호우",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HRC": {
+		"name": "호우경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10107",
+		"disaster_name": "호우",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HRA": {
+		"name": "호우주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10107",
+		"disaster_name": "호우",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"YSW": {
+		"name": "황사경보",
+		"is_mandatory": true,
+		"disaster_code": "T10108",
+		"disaster_name": "황사",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"YSS": {
+		"name": "황사 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10108",
+		"disaster_name": "황사",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"YSN": {
+		"name": "황사경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10108",
+		"disaster_name": "황사",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"YSE": {
+		"name": "황사 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10108",
+		"disaster_name": "황사",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"YSC": {
+		"name": "황사경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10108",
+		"disaster_name": "황사",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"WWW": {
+		"name": "풍랑경보",
+		"is_mandatory": true,
+		"disaster_code": "T10204",
+		"disaster_name": "풍랑",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"WWS": {
+		"name": "풍랑 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T10204",
+		"disaster_name": "풍랑",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"WWN": {
+		"name": "풍랑경보(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10204",
+		"disaster_name": "풍랑",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"WWL": {
+		"name": "풍랑주의보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10204",
+		"disaster_name": "풍랑",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"WWG": {
+		"name": "풍랑주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10204",
+		"disaster_name": "풍랑",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"WWE": {
+		"name": "풍랑 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10204",
+		"disaster_name": "풍랑",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"WWC": {
+		"name": "풍랑경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10204",
+		"disaster_name": "풍랑",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"WWA": {
+		"name": "풍랑주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10204",
+		"disaster_name": "풍랑",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"SSW": {
+		"name": "폭풍해일 경보",
+		"is_mandatory": true,
+		"disaster_code": "T10205",
+		"disaster_name": "폭풍해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"SSS": {
+		"name": "폭풍해일 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10205",
+		"disaster_name": "폭풍해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"SSN": {
+		"name": "폭풍해일 경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10205",
+		"disaster_name": "폭풍해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"SSL": {
+		"name": "폭풍해일 주의보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10205",
+		"disaster_name": "폭풍해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"SSG": {
+		"name": "폭풍해일 주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10205",
+		"disaster_name": "폭풍해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"SSE": {
+		"name": "폭풍해일 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10205",
+		"disaster_name": "폭풍해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"SSC": {
+		"name": "폭풍해일 경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10205",
+		"disaster_name": "폭풍해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"SSA": {
+		"name": "폭풍해일 주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10205",
+		"disaster_name": "폭풍해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"FLW": {
+		"name": "홍수경보",
+		"is_mandatory": true,
+		"disaster_code": "T10206",
+		"disaster_name": "홍수",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"FLS": {
+		"name": "홍수 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10206",
+		"disaster_name": "홍수",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"FLN": {
+		"name": "홍수경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10206",
+		"disaster_name": "홍수",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"FLL": {
+		"name": "홍수주의보 해제",
+		"is_mandatory": true,
+		"disaster_code": "T10206",
+		"disaster_name": "홍수",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"FLG": {
+		"name": "홍수주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10206",
+		"disaster_name": "홍수",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"FLC": {
+		"name": "홍수경보 해제",
+		"is_mandatory": true,
+		"disaster_code": "T10206",
+		"disaster_name": "홍수",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"FLA": {
+		"name": "홍수주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10206",
+		"disaster_name": "홍수",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"DRW": {
+		"name": "가뭄경보",
+		"is_mandatory": true,
+		"disaster_code": "T10301",
+		"disaster_name": "가뭄",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"DRS": {
+		"name": "가뭄 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10301",
+		"disaster_name": "가뭄",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HTW": {
+		"name": "폭염경보",
+		"is_mandatory": true,
+		"disaster_code": "T10302",
+		"disaster_name": "폭염",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HTS": {
+		"name": "폭염 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T10302",
+		"disaster_name": "폭염",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HTN": {
+		"name": "폭염경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10302",
+		"disaster_name": "폭염",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HTL": {
+		"name": "폭염주의보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10302",
+		"disaster_name": "폭염",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HTG": {
+		"name": "폭염주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10302",
+		"disaster_name": "폭염",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HTE": {
+		"name": "폭염 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10302",
+		"disaster_name": "폭염",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HTC": {
+		"name": "폭염경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10302",
+		"disaster_name": "폭염",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HTA": {
+		"name": "폭염주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10302",
+		"disaster_name": "폭염",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"CWW": {
+		"name": "한파경보",
+		"is_mandatory": true,
+		"disaster_code": "T10303",
+		"disaster_name": "한파",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"CWS": {
+		"name": "한파 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T10303",
+		"disaster_name": "한파",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"CWN": {
+		"name": "한파경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10303",
+		"disaster_name": "한파",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"CWL": {
+		"name": "한파주의보 해제", 
+		"is_mandatory": false,
+		"disaster_code": "T10303",
+		"disaster_name": "한파",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"CWG": {
+		"name": "한파주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10303",
+		"disaster_name": "한파",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"CWE": {
+		"name": "한파 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10303",
+		"disaster_name": "한파",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"CWC": {
+		"name": "한파경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10303",
+		"disaster_name": "한파",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"CWA": {
+		"name": "한파주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10303",
+		"disaster_name": "한파",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HAW": {
+		"name": "건조경보",
+		"is_mandatory": true,
+		"disaster_code": "T10304",
+		"disaster_name": "건조",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HAS": {
+		"name": "건조 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10304",
+		"disaster_name": "건조",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HAN": {
+		"name": "건조경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10304",
+		"disaster_name": "건조",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HAL": {
+		"name": "건조주의보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10304",
+		"disaster_name": "건조",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HAG": {
+		"name": "건조주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10304",
+		"disaster_name": "건조",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HAE": {
+		"name": "건조 긴급경보",
+		"is_mandatory": true,
+		"disaster_code": "T10304",
+		"disaster_name": "건조",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HAC": {
+		"name": "건조경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10304",
+		"disaster_name": "건조",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HAA": {
+		"name": "건조주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10304",
+		"disaster_name": "건조",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HFW": {
+		"name": "안개경보",
+		"is_mandatory": true,
+		"disaster_code": "T10305",
+		"disaster_name": "안개",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HFS": {
+		"name": "안개 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10305",
+		"disaster_name": "안개",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HFN": {
+		"name": "안개경보 변경(주의보->경보)",
+		"is_mandatory": true,
+		"disaster_code": "T10305",
+		"disaster_name": "안개",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HFL": {
+		"name": "안개주의보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10305",
+		"disaster_name": "안개",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HFG": {
+		"name": "안개주의보 변경(경보->주의보)",
+		"is_mandatory": true,
+		"disaster_code": "T10305",
+		"disaster_name": "안개",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HFC": {
+		"name": "안개경보 해제",
+		"is_mandatory": false,
+		"disaster_code": "T10305",
+		"disaster_name": "안개",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"HFA": {
+		"name": "안개주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10305",
+		"disaster_name": "안개",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"AVW": {
+		"name": "산사태 경보",
+		"is_mandatory": true,
+		"disaster_code": "T10401",
+		"disaster_name": "산사태",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"AVS": {
+		"name": "산사태 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10401",
+		"disaster_name": "산사태",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"AVA": {
+		"name": "산사태 주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10401",
+		"disaster_name": "산사태",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"FEW": {
+		"name": "국외 지진조기경보(시범)",
+		"is_mandatory": true,
+		"disaster_code": "T10402",
+		"disaster_name": "지진",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"FEI": {
+		"name": "국외지진정보",
+		"is_mandatory": false,
+		"disaster_code": "T10402",
+		"disaster_name": "지진",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"EQW": {
+		"name": "지진속보",
+		"is_mandatory": true,
+		"disaster_code": "T10402",
+		"disaster_name": "지진",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"EQI": {
+		"name": "지진정보",
+		"is_mandatory": true,
+		"disaster_code": "T10402",
+		"disaster_name": "지진",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"EEW": {
+		"name": "지진조기경보",
+		"is_mandatory": true,
+		"disaster_code": "T10402",
+		"disaster_name": "지진",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"VOW": {
+		"name": "화산재 경보",
+		"is_mandatory": true,
+		"disaster_code": "T10403",
+		"disaster_name": "화산",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"VOL": {
+		"name": "화산재 주의보 해제",
+		"is_mandatory": true,
+		"disaster_code": "T10403",
+		"disaster_name": "화산",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"VOI": {
+		"name": "화산정보",
+		"is_mandatory": false,
+		"disaster_code": "T10403",
+		"disaster_name": "화산",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"VOC": {
+		"name": "화산재 경보 해제",
+		"is_mandatory": true,
+		"disaster_code": "T10403",
+		"disaster_name": "화산",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"VOA": {
+		"name": "화산재 주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10403",
+		"disaster_name": "화산",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TSW": {
+		"name": "지진해일 경보",
+		"is_mandatory": true,
+		"disaster_code": "T10404",
+		"disaster_name": "지진해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TSR": {
+		"name": "지진해일 경보/주의보 해제",
+		"is_mandatory": true,
+		"disaster_code": "T10404",
+		"disaster_name": "지진해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TSO": {
+		"name": "지진해일 경보/주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10404",
+		"disaster_name": "지진해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TSL": {
+		"name": "지진해일 주의보 해제",
+		"is_mandatory": true,
+		"disaster_code": "T10404",
+		"disaster_name": "지진해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TSI": {
+		"name": "지진해일 정보",
+		"is_mandatory": true,
+		"disaster_code": "T10404",
+		"disaster_name": "지진해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TSC": {
+		"name": "지진해일 경보 해제",
+		"is_mandatory": true,
+		"disaster_code": "T10404",
+		"disaster_name": "지진해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"TSA": {
+		"name": "지진해일 주의보",
+		"is_mandatory": true,
+		"disaster_code": "T10404",
+		"disaster_name": "지진해일",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"NSW": {
+		"name": "자연우주물체 경보(경게, 심각)",
+		"is_mandatory": true,
+		"disaster_code": "T10501",
+		"disaster_name": "자연우주물체 추락/충돌",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"NSV": {
+		"name": "자연우주물체 추락/충돌 대피",
+		"is_mandatory": true,
+		"disaster_code": "T10501",
+		"disaster_name": "자연우주물체 추락/충돌",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"NSS": {
+		"name": "자연우주물체 추락/충돌 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T10501",
+		"disaster_name": "자연우주물체 추락/충돌",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"NSD": {
+		"name": "자연우주물체 사고",
+		"is_mandatory": true,
+		"disaster_code": "T10501",
+		"disaster_name": "자연우주물체 추락/충돌",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"KMA": {
+		"name": "긴급재난",
+		"is_mandatory": true,
+		"disaster_code": "T10998",
+		"disaster_name": "긴급재난",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"NHW": {
+		"name": "기타 자연재난",
+		"is_mandatory": true,
+		"disaster_code": "T10999",
+		"disaster_name": "기타 자연재난",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"NHS": {
+		"name": "기타 자연재난 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T10999",
+		"disaster_name": "기타 자연재난",
+		"category_code": "T1",
+		"category_name": "자연재난"
+	},
+	"MFW": {
+		"name": "산불 경보(경계,심각)",
+		"is_mandatory": true,
+		"disaster_code": "T20101",
+		"disaster_name": "산불",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"MFV": {
+		"name": "산불 대피",
+		"is_mandatory": true,
+		"disaster_code": "T20101",
+		"disaster_name": "산불",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"MFS": {
+		"name": "산불 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20101",
+		"disaster_name": "산불",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"MFA": {
+		"name": "산불 주의보",
+		"is_mandatory": true,
+		"disaster_code": "T20101",
+		"disaster_name": "산불",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"WHS": {
+		"name": "사업장 대규모 인적사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20103",
+		"disaster_name": "화재폭발",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"WHD": {
+		"name": "사업장 대규모 인적사고",
+		"is_mandatory": true,
+		"disaster_code": "T20103",
+		"disaster_name": "화재폭발",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FRW": {
+		"name": "다중밀집시설 대형화재",
+		"is_mandatory": true,
+		"disaster_code": "T20103",
+		"disaster_name": "화재폭발",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FRV": {
+		"name": "다중밀집시설 대형화재 대피",
+		"is_mandatory": true,
+		"disaster_code": "T20103",
+		"disaster_name": "화재폭발",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FRS": {
+		"name": "다중밀집시설 대형화재 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T20103",
+		"disaster_name": "화재폭발",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FHV": {
+		"name": "위험물 사고 대피",
+		"is_mandatory": true,
+		"disaster_code": "T20103",
+		"disaster_name": "화재폭발",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FHS": {
+		"name": "위험물 사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20103",
+		"disaster_name": "화재폭발",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FHD": {
+		"name": "위험물 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20103",
+		"disaster_name": "화재폭발",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"RVD": {
+		"name": "저수지 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20202",
+		"disaster_name": "댐 붕괴 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DOW": {
+		"name": "댐 월류 경보",
+		"is_mandatory": true,
+		"disaster_code": "T20202",
+		"disaster_name": "댐 붕괴 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DOS": {
+		"name": "댐 월류 발생 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20202",
+		"disaster_name": "댐 붕괴 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DOE": {
+		"name": "댐 월류 발생",
+		"is_mandatory": true,
+		"disaster_code": "T20202",
+		"disaster_name": "댐 붕괴 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DBW": {
+		"name": "댐 붕괴 경보",
+		"is_mandatory": true,
+		"disaster_code": "T20202",
+		"disaster_name": "댐 붕괴 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DBS": {
+		"name": "댐 붕괴 사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20202",
+		"disaster_name": "댐 붕괴 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DBA": {
+		"name": "댐 붕괴 주의",
+		"is_mandatory": true,
+		"disaster_code": "T20202",
+		"disaster_name": "댐 붕괴 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"BCW": {
+		"name": "다중밀집 건축물 붕괴",
+		"is_mandatory": true,
+		"disaster_code": "T20203",
+		"disaster_name": "시설물 붕괴",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"BCS": {
+		"name": "시설물 붕괴 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20203",
+		"disaster_name": "시설물 붕괴",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"SWS": {
+		"name": "지하철 사고 수습에 따른 차량 우회 협조",
+		"is_mandatory": true,
+		"disaster_code": "T20302",
+		"disaster_name": "철도 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"SWI": {
+		"name": "지하철 사고 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T20302",
+		"disaster_name": "철도 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"SWD": {
+		"name": "지하철 대형사고",
+		"is_mandatory": true,
+		"disaster_code": "T20302",
+		"disaster_name": "철도 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"SWC": {
+		"name": "지하철 사고 복구 완료",
+		"is_mandatory": true,
+		"disaster_code": "T20302",
+		"disaster_name": "철도 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"RWS": {
+		"name": "고속철도 사고 수습에 따른 차량 우회 협조",
+		"is_mandatory": true,
+		"disaster_code": "T20302",
+		"disaster_name": "철도 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"RWI": {
+		"name": "철도 사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20302",
+		"disaster_name": "철도 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"RWD": {
+		"name": "고철철도 대형사고",
+		"is_mandatory": true,
+		"disaster_code": "T20302",
+		"disaster_name": "철도 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"RWC": {
+		"name": "고속철도 사고 복구 완료",
+		"is_mandatory": true,
+		"disaster_code": "T20302",
+		"disaster_name": "철도 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"MSD": {
+		"name": "해양 선박 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20304",
+		"disaster_name": "해양 선박사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"MSS": {
+		"name": "해양 선박사고 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T20304",
+		"disaster_name": "해양 선박사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"ISD": {
+		"name": "내수면 유도선 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20304",
+		"disaster_name": "해양 선박사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"RLD": {
+		"name": "방사능 누출사고",
+		"is_mandatory": true,
+		"disaster_code": "T20401",
+		"disaster_name": "방사능 누출사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"RLS": {
+		"name": "방사능 누출사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20401",
+		"disaster_name": "방사능 누출사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"RHW": {
+		"name": "방사선 위험경보",
+		"is_mandatory": true,
+		"disaster_code": "T20402",
+		"disaster_name": "원자력 시설사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"RHS": {
+		"name": "원자력 시설사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20402",
+		"disaster_name": "원자력 시설사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"NRD": {
+		"name": "인접국가 방사능 누출사고",
+		"is_mandatory": true,
+		"disaster_code": "T20403",
+		"disaster_name": "인접국가 방사능 누출사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"NRS": {
+		"name": "인접국가 방사능 누출사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20403",
+		"disaster_name": "인접국가 방사능 누출사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"CHD": {
+		"name": "유해화학물질 유출 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20405",
+		"disaster_name": "유해화학물질",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"CHS": {
+		"name": "유해화학물질 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20405",
+		"disaster_name": "유해화학물질",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"CHC": {
+		"name": "유해화학물질 유출 사고 상황종료",
+		"is_mandatory": true,
+		"disaster_code": "T20405",
+		"disaster_name": "유해화학물질",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"CWD": {
+		"name": "대규모 수질오염 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20502",
+		"disaster_name": "수질오염",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"CWI": {
+		"name": "대규모 수질오염 사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20502",
+		"disaster_name": "수질오염",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"MPD": {
+		"name": "대규모 해양 오염 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20504",
+		"disaster_name": "해양 오염",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"MPS": {
+		"name": "해양 오염 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20504",
+		"disaster_name": "해양 오염",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FDW": {
+		"name": "미세먼지 경보",
+		"is_mandatory": true,
+		"disaster_code": "T20505",
+		"disaster_name": "미세먼지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FDS": {
+		"name": "미세먼지 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20505",
+		"disaster_name": "미세먼지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FDE": {
+		"name": "미세먼지 비상저감조치",
+		"is_mandatory": true,
+		"disaster_code": "T20505",
+		"disaster_name": "미세먼지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FDA": {
+		"name": "미세먼지 주의보",
+		"is_mandatory": true,
+		"disaster_code": "T20505",
+		"disaster_name": "미세먼지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FNE": {
+		"name": "금융 전산 사이버 공격",
+		"is_mandatory": true,
+		"disaster_code": "T20602",
+		"disaster_name": "금융 기반 시설 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FNS": {
+		"name": "금융 기반 시설 사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20602",
+		"disaster_name": "금융 기반 시설 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"FND": {
+		"name": "금융 전산 및 시설사고",
+		"is_mandatory": true,
+		"disaster_code": "T20602",
+		"disaster_name": "금융 기반 시설 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DWW": {
+		"name": "식용수 수질악화",
+		"is_mandatory": true,
+		"disaster_code": "T20604",
+		"disaster_name": "식용수",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DFS": {
+		"name": "식용수 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20604",
+		"disaster_name": "식용수",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DFD": {
+		"name": "식용수 시설 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20604",
+		"disaster_name": "식용수",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"POW": {
+		"name": "전력부족 심각단계",
+		"is_mandatory": true,
+		"disaster_code": "T20605",
+		"disaster_name": "에너지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"POS": {
+		"name": "에너지 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T20605",
+		"disaster_name": "에너지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"POD": {
+		"name": "전력 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20605",
+		"disaster_name": "에너지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"POA": {
+		"name": "전력부족 경계단계",
+		"is_mandatory": true,
+		"disaster_code": "T20605",
+		"disaster_name": "에너지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"GAD": {
+		"name": "가스 수급 및 누출사고",
+		"is_mandatory": true,
+		"disaster_code": "T20605",
+		"disaster_name": "에너지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"COD": {
+		"name": "원유수급 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20605",
+		"disaster_name": "에너지",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"NDW": {
+		"name": "통신재난 경보(경계,심각)",
+		"is_mandatory": true,
+		"disaster_code": "T20606",
+		"disaster_name": "통신재난",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"NDS": {
+		"name": "통신재난 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20606",
+		"disaster_name": "통신재난",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"NDA": {
+		"name": "통신재난 주의(관심,주의)",
+		"is_mandatory": true,
+		"disaster_code": "T20606",
+		"disaster_name": "통신재난",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"GFD": {
+		"name": "정부 중요시설 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20607",
+		"disaster_name": "정부 중요시설 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"GFS": {
+		"name": "정부 중요시설 사고 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20607",
+		"disaster_name": "정부 중요시설 사고",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DEW": {
+		"name": "감염병 정보",
+		"is_mandatory": true,
+		"disaster_code": "T20704",
+		"disaster_name": "감염병",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"DES": {
+		"name": "감염병 안내",
+		"is_mandatory": true,
+		"disaster_code": "T20704",
+		"disaster_name": "감염병",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"LDW": {
+		"name": "가축질병 경보",
+		"is_mandatory": true,
+		"disaster_code": "T20701",
+		"disaster_name": "가축질병",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"LDA": {
+		"name": "가축질병 주의보",
+		"is_mandatory": true,
+		"disaster_code": "T20701",
+		"disaster_name": "가축질병",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"TRW": {
+		"name": "테러 경보",
+		"is_mandatory": true,
+		"disaster_code": "T20903",
+		"disaster_name": "테러",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"TRS": {
+		"name": "테러 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20903",
+		"disaster_name": "테러",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"GRW": {
+		"name": "위성항법장치(GPS) 전파혼신 경보",
+		"is_mandatory": true,
+		"disaster_code": "T20905",
+		"disaster_name": "GPS 전파 혼신",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"GRS": {
+		"name": "GPS 전파 혼신 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20905",
+		"disaster_name": "GPS 전파 혼신",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"ASW": {
+		"name": "인공우주물체 경보(경계, 심각)",
+		"is_mandatory": true,
+		"disaster_code": "T20906",
+		"disaster_name": "인공우주물체 추락/충돌",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"ASV": {
+		"name": "인공우주물체 추락/충돌 대피",
+		"is_mandatory": true,
+		"disaster_code": "T20906",
+		"disaster_name": "인공우주물체 추락/충돌",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"ASS": {
+		"name": "인공우주물체 추락/충돌 안내정보",
+		"is_mandatory": true,
+		"disaster_code": "T20906",
+		"disaster_name": "인공우주물체 추락/충돌",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"ASD": {
+		"name": "인공우주물체 사고",
+		"is_mandatory": true,
+		"disaster_code": "T20906",
+		"disaster_name": "인공우주물체 추락/충돌",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"SHW": {
+		"name": "사회재난",
+		"is_mandatory": true,
+		"disaster_code": "T20999",
+		"disaster_name": "기타 사회재난",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"SHS": {
+		"name": "사회재난 안내정보",
+		"is_mandatory": false,
+		"disaster_code": "T20999",
+		"disaster_name": "기타 사회재난",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"CPW": {
+		"name": "민방공 경계경보",
+		"is_mandatory": true,
+		"disaster_code": "T21001",
+		"disaster_name": "민방공경보",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"CDC": {
+		"name": "민방공 경보 해제",
+		"is_mandatory": true,
+		"disaster_code": "T21001",
+		"disaster_name": "민방공경보",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"CCW": {
+		"name": "민방공 화생방 경보",
+		"is_mandatory": true,
+		"disaster_code": "T21001",
+		"disaster_name": "민방공경보",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"CAW": {
+		"name": "민방공 공습경보",
+		"is_mandatory": true,
+		"disaster_code": "T21001",
+		"disaster_name": "민방공경보",
+		"category_code": "T2",
+		"category_name": "사회재난"
+	},
+	"LAW": {
+		"name": "지역재난",
+		"is_mandatory": true,
+		"disaster_code": "T30101",
+		"disaster_name": "지역재난",
+		"category_code": "T3",
+		"category_name": "지역재난"
+	},
+	"NPT": {
+		"name": "정기시험",
+		"is_mandatory": false,
+		"disaster_code": "T30102",
+		"disaster_name": "시험",
+		"category_code": "T3",
+		"category_name": "지역재난"
+	}
+}

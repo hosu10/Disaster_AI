@@ -1,0 +1,33 @@
+# --- Python 관련 ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# --- 프로젝트 생성 데이터 및 임시 파일 ---
+captures/
+cap/
+temp/
+resources/*.log*
+resources/*.yml*
+
+# --- 설치 프로그램 및 실행 파일 (용량이 큼) ---
+resources/*.exe
+resources/*.ttf
+resources/python*.*
+
+# --- 로컬 설정 파일 ---
+Override_*.yml
+.env
+*.local.yml
+
+# --- Windows 시스템 파일 ---
+Thumbs.db
+desktop.ini
+
+# --- IDE 관련 (VS Code) ---
+.vscode/
+

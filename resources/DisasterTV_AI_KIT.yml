@@ -1,0 +1,97 @@
+# DisasterTV_AI.yml
+# 사전 체크 
+# 1. 보도국 시스템 OS가 윈도우 인가 리눅스인가?
+# 2. 비디오 입력 연동 처리
+# 3. 오디오 연결 가능한가(Option)
+# 4. KIT S/W 업그레이드(캡쳐화면 로딩)
+# 5. 외부 인터넷 연결 필요 : 파이썬과 필요 패키지 설치
+# 6. OPEN AI API필요 
+
+# 설치 과정 
+# 1. 비디오 입력 설정(USB, RTMP, 환경에 맞게 설정)
+# 2. RTMP 인경우 여러 환결설정 필요
+# 3. 파이썬과 패키지 설치 (visual studio code 필요한가?)
+# 4. 자막인식을 위한 Tesseract 프로그램 설치 
+# 5. 글꼴 파일 설치
+# 6. OPEN_AI API 환경 설정
+# 7. ffmpeg
+
+# 1. 카카오 채널 알림을 할지 설정함.
+kakao_on: True
+
+# 2. 입력 비디오 경로 
+video_path: "rtmp://10.30.17.108:1935/live/kbs"
+#video_path: 0
+ffmpeg_enable: 0  #오디오 재생을 위해 ffmpeg설치했을때 1
+
+
+# 3. CAP 수신 파일 경로 
+#path_cap: "./current/cap"
+#path_cap: "K:"
+path_cap: "C:/CGMS/file/cap/"
+
+# CAP_process_mandatory_only ( 디버거 모드에서 = Flase,  )
+CAP_process_mandatory_only : True
+#path_cap: "K:"
+
+# 4. 파일 경로 : 방송 화면 캡쳐 파일 저장할 경로
+path_capture: "C:/CGMS/captures"
+path_capture2: "./Current/captures"
+#path_capture2: "./Current/captures_test"
+#캡쳐파일 최대 저장 기간(일)
+capture_stay : 180    
+
+# 송출대상 재난코드 정의 파일
+# 긴급 재난코드
+emergency_event_code :  {'FEW', 'EQW', 'EQI', 'EEW', 'CPW', 'CNW', 'CDC', 'CCW', 'CAW'}
+# 긴급 재난 유형별 송출 시간 :
+# 지진은        10회 반복 / 표출 시간 30분 
+# 민방위 경보는  11회 반복 / 표출 시간 20분 
+real_warnning_json_path: "./current/resources/kbs_mandatory.json"
+# 티커 참조 이미지 경로
+ticker_reference: "./current/resources/ticker_ref.jpg"
+
+# 자막인식을 위한 Tesseract 프로그램 설치 경로
+pytesseract_path: "C:/Program Files/Tesseract-OCR/tesseract.exe"  
+# 티커 임시저장 경로
+ticker_temp_image: "./current/resources/ticker_temp_image.jpg"
+#자막 임시저장 경로
+subtitle_temp_image: "./current/resources/subtitle_temp_image.jpg"
+# LOG 파일 경로 *** 이 코드는 소스코드에 하드코딩되어 있음
+log_path : "./current/resources/"
+log_filename : 'disaster_log.log'
+max_lig_size : 2  # Mbyter
+
+#재난티커 나오고 자막 캡쳐할 지연 시간
+delay_subtitle: 8
+#4단계 재난경보에서 CAP 수신후 화면 캡쳐까지 지연시간(초)
+delay_Emergency_subtitle: 2
+#긴급 재난 송출 시간(초) : 긴급재난은 7분간 송출된다는 전제함. 
+emergency_tx_duration : 420
+#재난티커가 사라지고 일정 시간 지나면 재난 메시지 큐를 초기화 하게됨
+ticker_off_init_duration: 45
+
+
+#ticker_threshlod : (권고값 : True = 0.7. False = 0.6)
+ticker_True_threshold : 0.7
+ticker_False_threshold : 0.6
+
+
+# save_video 값이 True 인경우 video_save_path경로에 mp4비디오를 저장하게됨
+save_video: False
+video_save_path: "./current/resources/"
+
+ 
+# 재난티커 이미지 위치 (x1, y1, x2, y2)
+position_subtitle:
+  - [0, 490]    # 좌상단
+  - [780, 520]  # 우하단
+position_emergency_subtitle:
+  - [0, 250]    # 좌상단
+  - [960, 520]  # 우하단
+
+position_tick:
+# 자막 위치 (x1, y1, x2, y2)
+  - [780, 490]  # 좌상단
+  - [960, 520]  # 우하단
+ 
