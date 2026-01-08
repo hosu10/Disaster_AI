@@ -4,11 +4,11 @@
 
 # 1. 카카오 채널 알림을 할지 설정함.
 # kakao_on: False     # (Default)
-kakao_on: True
+kakao_on: false
 
 # 2. 입력 비디오 경로 
-video_path: 1
-#video_path: "rtmp://10.30.17.108:1935/live/kbs" # 정상 화면 크기 : 960 X 540    # (Default)
+video_path: 0
+#video_path: "rtmp://10.30.16.35:1935/live/kbs" # 정상 화면 크기 : 960 X 540    # (Default)
 
 # 3. 모니터링 화면에서 오디오를 재생할 것인가? ** 재생시 다소 불안정함
 ffmpeg_enable: 0  #오디오 재생을 위해 ffmpeg설치했을때 1
