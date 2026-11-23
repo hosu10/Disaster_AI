@@ -23,6 +23,7 @@ resources/python*.*
 Override_*.yml
 .env
 *.local.yml
+Watcher_ui_prefs.yml
 
 # --- Windows 시스템 파일 ---
 Thumbs.db
